@@ -1,0 +1,37 @@
+{
+  "name": "suck",
+  "version": "0.0.0",
+  "description": "RSS feed miner",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/j0ni/suck.git"
+  },
+  "keywords": [
+    "rss",
+    "search"
+  ],
+  "author": "J Irving <j@lollyshouse.ca>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/j0ni/suck/issues"
+  },
+  "dependencies": {
+    "express": "~3.4.0",
+    "express-resource": "~1.0.0",
+    "mongoose": "~3.6.20",
+    "express-mongoose": "~0.1.0",
+    "underscore": "~1.5.2",
+    "bluebird": "~0.7.10-1",
+    "optimist": "~0.6.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "should": "~1.3.0",
+    "supertest": "~0.8.0",
+    "jshint": "~2.1.11"
+  }
+}
